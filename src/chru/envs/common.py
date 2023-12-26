@@ -44,6 +44,12 @@ INSTALLED_APPS = [
     'treebeard',
 
     'channels',
+
+    'chru.auths.users'
+]
+
+INSTALLED_APPS +=[
+    'chru.events.programs'
 ]
 
 MIDDLEWARE = [
@@ -89,6 +95,7 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = "users.User"
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
