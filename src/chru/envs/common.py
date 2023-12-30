@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django_filters',
     'corsheaders',
     'treebeard',
-
     'channels',
 
     'chru.auths.users'
